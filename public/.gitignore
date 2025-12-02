@@ -1,0 +1,26 @@
+# Node modules (for both client and server)
+node_modules/
+*/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+client/.env
+server/.env
+
+# Build outputs
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
